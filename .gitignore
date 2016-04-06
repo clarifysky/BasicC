@@ -1,3 +1,13 @@
+# Mac OS
+#
+.DS_Store
+**/.DS_Store
+
+# Xcode
+#
+build/
+xcuserdata
+
 # Object files
 *.o
 *.ko

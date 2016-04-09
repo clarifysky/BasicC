@@ -12,3 +12,8 @@
 #include <stdio.h>
 
 #endif /* Sample1_1_h */
+
+void butler(void);  // ISO/ANSI C prototype of function.
+
+void age(void);
+int ageToDays(int age);

@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD3084EF1CB62CF00065C63E /* weight.c in Sources */ = {isa = PBXBuildFile; fileRef = CD3084ED1CB62CF00065C63E /* weight.c */; };
-		CD3084F21CB6324B0065C63E /* jinzhi.c in Sources */ = {isa = PBXBuildFile; fileRef = CD3084F01CB6324B0065C63E /* jinzhi.c */; };
-		CD6C0E1B1CB5370D006B7A2B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CD6C0E191CB5370D006B7A2B /* main.c */; };
+		CD97B3241CE046890093D2AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CD97B3231CE046890093D2AC /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CD3ABDFA1CAEBCAC008A3FD3 /* CopyFiles */ = {
+		CD97B31E1CE046890093D2AC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,17 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CD3084ED1CB62CF00065C63E /* weight.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = weight.c; sourceTree = "<group>"; };
-		CD3084EE1CB62CF00065C63E /* weight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weight.h; sourceTree = "<group>"; };
-		CD3084F01CB6324B0065C63E /* jinzhi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jinzhi.c; sourceTree = "<group>"; };
-		CD3084F11CB6324B0065C63E /* jinzhi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jinzhi.h; sourceTree = "<group>"; };
-		CD3ABDFC1CAEBCAC008A3FD3 /* BasicC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BasicC; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD6C0E191CB5370D006B7A2B /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		CD6C0E1A1CB5370D006B7A2B /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		CD97B3201CE046890093D2AC /* print-inttypes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "print-inttypes"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD97B3231CE046890093D2AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CD3ABDF91CAEBCAC008A3FD3 /* Frameworks */ = {
+		CD97B31D1CE046890093D2AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,104 +38,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD3ABDF31CAEBCAC008A3FD3 = {
+		CD97B3171CE046890093D2AC = {
 			isa = PBXGroup;
 			children = (
-				CD3ABDFE1CAEBCAC008A3FD3 /* BasicC */,
-				CD3ABDFD1CAEBCAC008A3FD3 /* Products */,
+				CD97B3221CE046890093D2AC /* print-inttypes */,
+				CD97B3211CE046890093D2AC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CD3ABDFD1CAEBCAC008A3FD3 /* Products */ = {
+		CD97B3211CE046890093D2AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD3ABDFC1CAEBCAC008A3FD3 /* BasicC */,
+				CD97B3201CE046890093D2AC /* print-inttypes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD3ABDFE1CAEBCAC008A3FD3 /* BasicC */ = {
+		CD97B3221CE046890093D2AC /* print-inttypes */ = {
 			isa = PBXGroup;
 			children = (
-				CD6C0E191CB5370D006B7A2B /* main.c */,
-				CD6C0E1A1CB5370D006B7A2B /* main.h */,
-				CD3084ED1CB62CF00065C63E /* weight.c */,
-				CD3084EE1CB62CF00065C63E /* weight.h */,
-				CD3084F01CB6324B0065C63E /* jinzhi.c */,
-				CD3084F11CB6324B0065C63E /* jinzhi.h */,
+				CD97B3231CE046890093D2AC /* main.c */,
 			);
-			path = BasicC;
+			path = "print-inttypes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD3ABDFB1CAEBCAC008A3FD3 /* BasicC */ = {
+		CD97B31F1CE046890093D2AC /* print-inttypes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD3ABE031CAEBCAC008A3FD3 /* Build configuration list for PBXNativeTarget "BasicC" */;
+			buildConfigurationList = CD97B3271CE046890093D2AC /* Build configuration list for PBXNativeTarget "print-inttypes" */;
 			buildPhases = (
-				CD3ABDF81CAEBCAC008A3FD3 /* Sources */,
-				CD3ABDF91CAEBCAC008A3FD3 /* Frameworks */,
-				CD3ABDFA1CAEBCAC008A3FD3 /* CopyFiles */,
+				CD97B31C1CE046890093D2AC /* Sources */,
+				CD97B31D1CE046890093D2AC /* Frameworks */,
+				CD97B31E1CE046890093D2AC /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BasicC;
-			productName = BasicC;
-			productReference = CD3ABDFC1CAEBCAC008A3FD3 /* BasicC */;
+			name = "print-inttypes";
+			productName = "print-inttypes";
+			productReference = CD97B3201CE046890093D2AC /* print-inttypes */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CD3ABDF41CAEBCAC008A3FD3 /* Project object */ = {
+		CD97B3181CE046890093D2AC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = breadth.com;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rexcao.net;
 				TargetAttributes = {
-					CD3ABDFB1CAEBCAC008A3FD3 = {
-						CreatedOnToolsVersion = 7.0.1;
+					CD97B31F1CE046890093D2AC = {
+						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
-			buildConfigurationList = CD3ABDF71CAEBCAC008A3FD3 /* Build configuration list for PBXProject "BasicC" */;
+			buildConfigurationList = CD97B31B1CE046890093D2AC /* Build configuration list for PBXProject "print-inttypes" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CD3ABDF31CAEBCAC008A3FD3;
-			productRefGroup = CD3ABDFD1CAEBCAC008A3FD3 /* Products */;
+			mainGroup = CD97B3171CE046890093D2AC;
+			productRefGroup = CD97B3211CE046890093D2AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD3ABDFB1CAEBCAC008A3FD3 /* BasicC */,
+				CD97B31F1CE046890093D2AC /* print-inttypes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CD3ABDF81CAEBCAC008A3FD3 /* Sources */ = {
+		CD97B31C1CE046890093D2AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD6C0E1B1CB5370D006B7A2B /* main.c in Sources */,
-				CD3084F21CB6324B0065C63E /* jinzhi.c in Sources */,
-				CD3084EF1CB62CF00065C63E /* weight.c in Sources */,
+				CD97B3241CE046890093D2AC /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CD3ABE011CAEBCAC008A3FD3 /* Debug */ = {
+		CD97B3251CE046890093D2AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -156,6 +143,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -181,10 +169,11 @@
 			};
 			name = Debug;
 		};
-		CD3ABE021CAEBCAC008A3FD3 /* Release */ = {
+		CD97B3261CE046890093D2AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -198,6 +187,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -216,42 +206,41 @@
 			};
 			name = Release;
 		};
-		CD3ABE041CAEBCAC008A3FD3 /* Debug */ = {
+		CD97B3281CE046890093D2AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = BasicC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		CD3ABE051CAEBCAC008A3FD3 /* Release */ = {
+		CD97B3291CE046890093D2AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = BasicC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD3ABDF71CAEBCAC008A3FD3 /* Build configuration list for PBXProject "BasicC" */ = {
+		CD97B31B1CE046890093D2AC /* Build configuration list for PBXProject "print-inttypes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD3ABE011CAEBCAC008A3FD3 /* Debug */,
-				CD3ABE021CAEBCAC008A3FD3 /* Release */,
+				CD97B3251CE046890093D2AC /* Debug */,
+				CD97B3261CE046890093D2AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD3ABE031CAEBCAC008A3FD3 /* Build configuration list for PBXNativeTarget "BasicC" */ = {
+		CD97B3271CE046890093D2AC /* Build configuration list for PBXNativeTarget "print-inttypes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD3ABE041CAEBCAC008A3FD3 /* Debug */,
-				CD3ABE051CAEBCAC008A3FD3 /* Release */,
+				CD97B3281CE046890093D2AC /* Debug */,
+				CD97B3291CE046890093D2AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CD3ABDF41CAEBCAC008A3FD3 /* Project object */;
+	rootObject = CD97B3181CE046890093D2AC /* Project object */;
 }

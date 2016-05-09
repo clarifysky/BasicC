@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/rex/Documents/WorkSpace/GitHub/BasicC/BasicC.xcodeproj">
+      location = "self:print-sizeof.xcodeproj">
    </FileRef>
 </Workspace>
